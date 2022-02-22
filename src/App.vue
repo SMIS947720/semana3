@@ -1,20 +1,31 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <FirstComponent/>
+
+  <!--<ciclovida/>-->
+    
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+
+import FirstComponent from './components/FirstComponent.vue'
+
+ //import ciclovida from './components/ciclovida.vue'
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    
+    FirstComponent
+    
+    //ciclovida
   }
 }
 </script>
+
 
 <style>
 #app {
